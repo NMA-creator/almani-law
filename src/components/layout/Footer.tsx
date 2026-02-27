@@ -20,12 +20,31 @@ const siteLinks = [
 ];
 
 function FooterLogo() {
+  const accentColor = "#2563EB";
+
   return (
-    <div className="flex flex-col leading-none select-none">
-      <span className="font-inter font-bold tracking-widest text-sm uppercase text-white border-b-2 border-white pb-0.5">
+    <div className="flex flex-col leading-none select-none text-white">
+      {/* ALI ALMANI — bold, wide-tracked, all caps */}
+      <span className="font-inter font-bold text-[15px] uppercase tracking-[0.15em]">
         ALI ALMANI
       </span>
-      <span className="font-inter font-normal tracking-widest text-xs uppercase text-white mt-0.5">
+
+      {/* Blue rule with right-pointing arrowhead */}
+      <div className="flex items-center my-[5px]">
+        <div className="flex-1 h-[2px]" style={{ backgroundColor: accentColor }} />
+        <div
+          style={{
+            width: 0,
+            height: 0,
+            borderTop: "4px solid transparent",
+            borderBottom: "4px solid transparent",
+            borderLeft: `6px solid ${accentColor}`,
+          }}
+        />
+      </div>
+
+      {/* & PARTNERS — lighter weight, smaller, right-aligned */}
+      <span className="font-inter font-normal text-[10px] uppercase tracking-[0.15em] text-right">
         &amp; PARTNERS
       </span>
     </div>
