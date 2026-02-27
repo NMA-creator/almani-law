@@ -48,7 +48,7 @@ export default function AboutPage() {
           <p className="font-inter font-medium text-xs uppercase tracking-widest text-gold mb-3">
             The Firm
           </p>
-          <h1 className="font-cormorant font-semibold text-5xl md:text-6xl text-white leading-tight">
+          <h1 className="font-cormorant font-normal text-5xl md:text-6xl text-white leading-tight">
             About the Firm
           </h1>
         </div>

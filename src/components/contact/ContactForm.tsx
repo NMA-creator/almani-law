@@ -137,7 +137,7 @@ export default function ContactForm() {
             <polyline points="20 6 9 17 4 12" />
           </svg>
         </div>
-        <h3 className="font-cormorant font-semibold text-2xl text-navy mb-2">
+        <h3 className="font-cormorant font-normal text-2xl text-navy mb-2">
           Message received
         </h3>
         <p className="font-inter text-sm text-muted">
@@ -299,7 +299,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="w-full py-3 px-8 bg-blue hover:bg-blue-light text-white font-inter font-medium text-sm uppercase tracking-widest transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+          className="w-full py-3 px-8 bg-transparent border border-navy text-navy font-inter font-medium text-sm uppercase tracking-widest hover:bg-navy hover:text-white transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
         >
           {status === "loading" ? "Sending…" : "Send Message"}
         </button>

@@ -46,7 +46,7 @@ export default function AliAlmaniPage() {
           <p className="font-inter font-medium text-xs uppercase tracking-widest text-gold mb-3">
             Managing Partner
           </p>
-          <h1 className="font-cormorant font-semibold text-5xl md:text-6xl text-white mb-4 leading-tight">
+          <h1 className="font-cormorant font-normal text-5xl md:text-6xl text-white mb-4 leading-tight">
             {ali.name}
           </h1>
           <p className="font-inter text-sm text-white/65 tracking-wide">

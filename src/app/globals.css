@@ -3,19 +3,19 @@
 /* ─── Brand Colour Tokens ─────────────────────────────────────────────────── */
 @theme {
   /* Colours */
-  --color-navy:       #1E2A3A; /* nav, footer, dark section backgrounds */
+  --color-navy:       #1a2433; /* nav, footer, dark section backgrounds */
   --color-blue:       #1B4F9B; /* primary CTA, links, accents */
   --color-blue-light: #2563EB; /* hover states */
-  --color-gold:       #C9A84C; /* credentials bar, eyebrow labels only */
+  --color-gold:       #c5b358; /* credentials bar, eyebrow labels only */
   --color-white:      #FFFFFF;
-  --color-off-white:  #F8F9FA; /* page section backgrounds */
-  --color-text:       #1C1C1C; /* all body copy */
+  --color-off-white:  #fcfcfa; /* page section backgrounds */
+  --color-text:       #4a4a4a; /* all body copy */
   --color-muted:      #6B7280; /* secondary text, captions */
-  --color-border:     #E5E7EB; /* dividers, card borders */
+  --color-border:     #e0e0e0; /* dividers, card borders */
   --color-whatsapp:   #25D366; /* WhatsApp button — never change this */
 
   /* Typography — populated by next/font in layout.tsx */
-  --font-cormorant: var(--font-cormorant-garamond);
+  --font-cormorant: var(--font-libre-baskerville);
   --font-inter:     var(--font-inter);
 }
 
@@ -76,4 +76,5 @@ body {
 p {
   text-align: justify;
   hyphens: auto;
+  line-height: 1.8;
 }

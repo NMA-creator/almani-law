@@ -18,7 +18,7 @@ export function ProfileCard({ member }: ProfileCardProps) {
         />
       </div>
 
-      <h2 className="font-cormorant font-semibold text-2xl text-navy mb-1 leading-tight group-hover:text-blue transition-colors duration-200">
+      <h2 className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight group-hover:text-blue transition-colors duration-200">
         {member.name}
       </h2>
 

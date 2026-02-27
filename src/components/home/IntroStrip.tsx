@@ -49,7 +49,7 @@ export default function IntroStrip() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {stats.map((stat) => (
               <div key={stat.value} className="border-l-2 border-gold pl-5">
-                <p className="font-cormorant font-semibold text-3xl text-navy mb-1">
+                <p className="font-cormorant font-normal text-3xl text-navy mb-1">
                   {stat.value}
                 </p>
                 <p className="font-inter text-sm text-muted leading-snug">

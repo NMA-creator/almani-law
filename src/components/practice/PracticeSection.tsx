@@ -28,7 +28,7 @@ export default function PracticeSection({ area, isLast }: PracticeSectionProps) 
     >
       {/* Left blue border accent */}
       <div className="border-l-4 border-blue pl-8">
-        <h2 className="font-cormorant font-semibold text-3xl md:text-4xl text-navy mb-8 leading-tight">
+        <h2 className="font-cormorant font-normal text-3xl md:text-4xl text-navy mb-8 leading-tight">
           {area.title}
         </h2>
 

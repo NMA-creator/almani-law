@@ -24,7 +24,7 @@ export default function FeaturedProfile() {
               Managing Partner
             </p>
 
-            <h2 className="font-cormorant font-semibold text-4xl md:text-5xl text-navy mb-4 leading-tight">
+            <h2 className="font-cormorant font-normal text-4xl md:text-5xl text-navy mb-4 leading-tight">
               {ali.name}
             </h2>
 

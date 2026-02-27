@@ -3,7 +3,7 @@ import { matters } from "@/data/matters";
 export function SelectedMatters() {
   return (
     <section id="selected-matters" className="scroll-mt-28 pt-16 border-t border-border">
-      <h2 className="font-cormorant font-semibold text-3xl md:text-4xl text-navy mb-10">
+      <h2 className="font-cormorant font-normal text-3xl md:text-4xl text-navy mb-10">
         Selected Matters
       </h2>
 
@@ -11,8 +11,8 @@ export function SelectedMatters() {
         {matters.map((matter, i) => (
           <div
             key={matter.id}
-            className={`grid grid-cols-1 sm:grid-cols-[120px_1fr_auto] gap-3 sm:gap-6 items-start py-6 ${
-              i < matters.length - 1 ? "border-b border-border" : ""
+            className={`grid grid-cols-1 sm:grid-cols-[120px_1fr_auto] gap-3 sm:gap-6 items-start py-12 hover:bg-[rgba(26,36,51,0.02)] transition-colors ${
+              i < matters.length - 1 ? "border-b border-border/50" : ""
             }`}
           >
             {/* Subject tag */}

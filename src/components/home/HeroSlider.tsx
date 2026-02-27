@@ -78,7 +78,7 @@ export default function HeroSlider() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-cormorant font-semibold text-[44px] md:text-[72px] leading-tight text-white mb-6 max-w-4xl"
+          className="font-cormorant font-normal text-[44px] md:text-[72px] leading-tight text-white mb-6 max-w-4xl"
         >
           {tagline}
         </motion.h1>
@@ -106,7 +106,7 @@ export default function HeroSlider() {
           </Link>
           <Link
             href={ctaSecondary.href}
-            className="px-8 py-3 bg-blue border-2 border-blue text-white font-inter font-medium text-sm uppercase tracking-widest hover:bg-blue-light hover:border-blue-light transition-colors"
+            className="px-8 py-3 border-2 border-white text-white font-inter font-medium text-sm uppercase tracking-widest hover:bg-white hover:text-navy transition-colors"
           >
             {ctaSecondary.label}
           </Link>

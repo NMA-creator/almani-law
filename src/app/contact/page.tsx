@@ -30,7 +30,7 @@ export default function ContactPage() {
           <p className="font-inter font-medium text-xs uppercase tracking-widest text-gold mb-3">
             Get in Touch
           </p>
-          <h1 className="font-cormorant font-semibold text-5xl md:text-6xl text-white leading-tight">
+          <h1 className="font-cormorant font-normal text-5xl md:text-6xl text-white leading-tight">
             Contact
           </h1>
         </div>
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <div>
               {/* Firm details */}
               <div className="mb-10">
-                <h2 className="font-cormorant font-semibold text-2xl text-navy mb-6">
+                <h2 className="font-cormorant font-normal text-2xl text-navy mb-6">
                   Ali Almani &amp; Partners
                 </h2>
                 <address className="not-italic space-y-2 font-inter text-sm text-text leading-relaxed">
@@ -104,7 +104,7 @@ export default function ContactPage() {
 
             {/* ── Right column — form ── */}
             <div>
-              <h2 className="font-cormorant font-semibold text-2xl text-navy mb-8">
+              <h2 className="font-cormorant font-normal text-2xl text-navy mb-8">
                 Send a Message
               </h2>
               <ContactForm />

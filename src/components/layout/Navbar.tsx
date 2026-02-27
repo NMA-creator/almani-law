@@ -117,7 +117,7 @@ export default function Navbar() {
             })}
             <Link
               href="/contact"
-              className="ml-2 px-4 py-2 bg-blue hover:bg-blue-light text-white font-inter font-medium text-xs uppercase tracking-widest rounded transition-colors"
+              className="ml-2 px-4 py-2 border border-white text-white bg-transparent font-inter font-medium text-xs uppercase tracking-widest hover:bg-white hover:text-navy transition-colors"
             >
               Contact Us
             </Link>

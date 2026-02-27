@@ -21,7 +21,7 @@ export function SectionHeader({
         </p>
       )}
       <h2
-        className={`font-cormorant font-semibold text-3xl md:text-4xl lg:text-5xl leading-tight ${
+        className={`font-cormorant font-normal text-3xl md:text-4xl lg:text-5xl leading-tight ${
           light ? "text-white" : "text-navy"
         }`}
       >

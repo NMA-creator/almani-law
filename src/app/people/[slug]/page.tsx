@@ -39,7 +39,7 @@ export default async function TeamMemberPage({ params }: Props) {
           <p className="font-inter font-medium text-xs uppercase tracking-widest text-gold mb-3">
             {member.title}
           </p>
-          <h1 className="font-cormorant font-semibold text-5xl md:text-6xl text-white mb-4 leading-tight">
+          <h1 className="font-cormorant font-normal text-5xl md:text-6xl text-white mb-4 leading-tight">
             {member.name}
           </h1>
           <p className="font-inter text-sm text-white/65 tracking-wide">
