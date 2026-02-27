@@ -39,7 +39,7 @@ export default function IntroStrip() {
           {/* Left: body text */}
           <div className="space-y-6">
             {bodyParagraphs.map((para, i) => (
-              <p key={i} className="font-inter text-base text-text leading-relaxed opacity-80">
+              <p key={i} className="font-inter text-base text-text leading-relaxed">
                 {para}
               </p>
             ))}

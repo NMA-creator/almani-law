@@ -83,15 +83,22 @@ export default function Navbar() {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="font-inter font-medium text-xs uppercase tracking-widest text-white/90 hover:text-white transition-colors"
-              >
-                {link.label}
-              </Link>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = pathname === link.href || pathname.startsWith(link.href + "/");
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`font-inter font-medium text-xs uppercase tracking-widest transition-colors ${
+                    isActive
+                      ? "text-white border-b border-white/60 pb-0.5"
+                      : "text-white/75 hover:text-white"
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
             <Link
               href="/contact"
               className="ml-2 px-4 py-2 bg-blue hover:bg-blue-light text-white font-inter font-medium text-xs uppercase tracking-widest rounded transition-colors"

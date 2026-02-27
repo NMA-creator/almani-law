@@ -16,7 +16,7 @@ export default function PracticePage() {
       {/* Page header band */}
       <div className="relative flex items-end bg-navy pt-32 pb-16 min-h-[45vh]">
         <Image
-          src="/images/practice/photo-library.jpg"
+          src="/images/hero/hero-1.jpg"
           alt="Legal library — Ali Almani & Partners"
           fill
           className="object-cover opacity-35"

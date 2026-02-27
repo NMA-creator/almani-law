@@ -12,8 +12,8 @@ export function ProfileCard({ member }: ProfileCardProps) {
       {/* Portrait photo — overflow hidden for scale-on-hover */}
       <div className="overflow-hidden mb-4">
         <PhotoPlaceholder
-          width={1}
-          height={1}
+          width={3}
+          height={4}
           className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
         />
       </div>

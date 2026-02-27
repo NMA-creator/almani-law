@@ -11,7 +11,7 @@ export default function AboutStrip() {
         {/* Left: editorial image */}
         <div className="relative min-h-72 md:min-h-auto bg-navy/60">
           <Image
-            src="/images/about/photo-clifton.jpg"
+            src="/images/hero/hero-1.jpg"
             alt="Ali Almani & Partners — Old Clifton, Karachi"
             fill
             className="object-cover opacity-75"

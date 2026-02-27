@@ -36,7 +36,7 @@ export default function PracticeSection({ area, isLast }: PracticeSectionProps) 
           {area.body.map((para, i) => (
             <p
               key={i}
-              className="font-inter text-base text-text leading-relaxed opacity-80 text-justify"
+              className="font-inter text-base text-text leading-relaxed text-justify"
             >
               {para}
             </p>

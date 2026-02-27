@@ -10,17 +10,19 @@ const associates = team.filter((m) => m.slug === "shahzeb-sahito");
 interface SectionProps {
   label: string;
   members: TeamMember[];
+  /** Tailwind grid-cols classes for the card grid */
+  gridCols?: string;
 }
 
-function Section({ label, members }: SectionProps) {
+function Section({ label, members, gridCols = "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" }: SectionProps) {
   return (
     <div className="mb-20">
       <div className="mb-10">
-        <h2 className="font-inter font-medium text-xs uppercase tracking-widest text-gold pb-4 border-b border-border">
+        <h2 className="font-inter font-medium text-xs uppercase tracking-widest text-gold pb-5 border-b-2 border-gold/30">
           {label}
         </h2>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-12">
+      <div className={`grid ${gridCols} gap-x-10 gap-y-12`}>
         {members.map((member) => (
           <ProfileCard key={member.slug} member={member} />
         ))}
@@ -32,9 +34,14 @@ function Section({ label, members }: SectionProps) {
 export default function TeamGrid() {
   return (
     <div>
-      <Section label="Partners" members={partners} />
-      <Section label="Senior Associates" members={seniorAssociates} />
-      <Section label="Associates" members={associates} />
+      {/* Managing Partner — card is 1/3 width, prominent but consistent */}
+      <Section label="Partners" members={partners} gridCols="grid-cols-1 sm:grid-cols-3" />
+
+      {/* Senior Associates — 3 members fill a 3-col row perfectly */}
+      <Section label="Senior Associates" members={seniorAssociates} gridCols="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" />
+
+      {/* Associates */}
+      <Section label="Associates" members={associates} gridCols="grid-cols-1 sm:grid-cols-3" />
     </div>
   );
 }

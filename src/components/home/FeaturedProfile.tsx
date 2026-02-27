@@ -32,7 +32,7 @@ export default function FeaturedProfile() {
               {ali.credentialsLine}
             </p>
 
-            <p className="font-inter text-base text-text leading-relaxed opacity-80 mb-10">
+            <p className="font-inter text-base text-text leading-relaxed mb-10">
               {shortBio}
             </p>
 

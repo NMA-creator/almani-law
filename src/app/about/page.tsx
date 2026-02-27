@@ -35,7 +35,7 @@ export default function AboutPage() {
       {/* Page header */}
       <div className="relative flex items-end bg-navy pt-36 pb-16 min-h-[45vh]">
         <Image
-          src="/images/about/photo-clifton.jpg"
+          src="/images/hero/hero-1.jpg"
           alt="Ali Almani & Partners — Old Clifton, Karachi"
           fill
           className="object-cover opacity-30"
@@ -63,7 +63,7 @@ export default function AboutPage() {
               className={`font-inter leading-relaxed ${
                 i === 0
                   ? "text-xl text-navy font-medium"
-                  : "text-base text-text opacity-80"
+                  : "text-base text-text"
               }`}
             >
               {para}
@@ -76,7 +76,7 @@ export default function AboutPage() {
       <div className="relative h-[50vh] min-h-[360px] bg-navy">
         <Image
           src="/images/hero/hero-2.jpg"
-          alt="Ali Almani & Partners — Karachi (placeholder)"
+          alt="Ali Almani & Partners — Karachi"
           fill
           className="object-cover opacity-70"
           sizes="100vw"

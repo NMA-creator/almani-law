@@ -68,7 +68,7 @@ export default async function TeamMemberPage({ params }: Props) {
                 {member.bio.map((para, i) => (
                   <p
                     key={i}
-                    className="font-inter text-base text-text leading-relaxed opacity-80"
+                    className="font-inter text-base text-text leading-relaxed"
                   >
                     {para}
                   </p>

@@ -28,11 +28,6 @@ export const heroSlides: HeroSlide[] = [
     src: "/images/hero/hero-2.jpg",
     alt: "Superior courts of Pakistan",
   },
-  {
-    id: 3,
-    src: "/images/hero/hero-3.jpg",
-    alt: "Legal advocacy — Ali Almani & Partners",
-  },
 ];
 
 export const heroContent: HeroContent = {

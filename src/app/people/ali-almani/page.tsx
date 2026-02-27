@@ -33,7 +33,7 @@ export default function AliAlmaniPage() {
       {/* Header band */}
       <div className="relative flex items-end bg-navy pt-36 pb-16 min-h-[50vh]">
         <Image
-          src="/images/about/photo-colonial.jpg"
+          src="/images/hero/hero-2.jpg"
           alt="Ali Almani — Managing Partner, Ali Almani & Partners"
           fill
           className="object-cover opacity-30"
@@ -76,7 +76,7 @@ export default function AliAlmaniPage() {
                 {ali.bio.map((para, i) => (
                   <p
                     key={i}
-                    className="font-inter text-base text-text leading-relaxed opacity-80"
+                    className="font-inter text-base text-text leading-relaxed"
                   >
                     {para}
                   </p>
@@ -84,7 +84,7 @@ export default function AliAlmaniPage() {
               </div>
 
               {/* CTA buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 mb-0">
+              <div className="flex flex-col sm:flex-row gap-4 mb-14">
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center px-8 py-3 border-2 border-navy text-navy font-inter font-medium text-sm uppercase tracking-widest hover:bg-navy hover:text-white transition-colors"

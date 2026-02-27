@@ -33,15 +33,18 @@ export default function PracticeGrid() {
           className="mb-12"
         />
 
-        {/* 3-col grid with collapsed borders */}
+        {/* 3-col grid with collapsed borders — 7th tile spans full row */}
         <div className="grid grid-cols-1 md:grid-cols-3 border-t border-l border-border">
-          {practiceAreas.map((area) => {
+          {practiceAreas.map((area, idx) => {
             const Icon = iconMap[area.icon];
+            const isLast = idx === practiceAreas.length - 1;
             return (
               <Link
                 key={area.slug}
                 href={`/practice#${area.anchor}`}
-                className="group block p-8 border-r border-b border-border hover:bg-navy transition-colors duration-300"
+                className={`group block p-8 border-r border-b border-border hover:bg-navy transition-colors duration-300 ${
+                  isLast ? "md:col-span-3" : ""
+                }`}
               >
                 <div className="mb-5">
                   {Icon && (
