@@ -59,6 +59,11 @@
   animation: marquee 24s linear infinite;
 }
 
+/* ─── Hide Next.js dev indicator ("N" badge) ─────────────────────────────── */
+nextjs-portal {
+  display: none;
+}
+
 /* ─── Base Styles ────────────────────────────────────────────────────────── */
 html {
   scroll-behavior: smooth;
