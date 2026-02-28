@@ -66,16 +66,15 @@ export function Logo({ dark = false }: LogoProps) {
 
       {/*
         ── Right-pointing triangle ▶ ──────────────────────────────────────────
-        Flat vertical side on the LEFT at x=118 (where the rule ends).
-        Point on the RIGHT at x=130.
-        Vertically centred on the rule (y=24):
-          top-left    (118, 17)
-          bottom-left (118, 31)
-          right-point (130, 24)
-        Width=12, Height=14 — proportional to the reference.
+        Formula: "x,centerY-h  x,centerY+h  x+w,centerY"
+        Rule ends at x=118, centred on y=24, half-height=7, width=10:
+          top-left    (118, 17)  ← centerY - 7
+          bottom-left (118, 31)  ← centerY + 7
+          right-point (128, 24)  ← x + 10, centerY
+        Flat vertical LEFT side, single point to the RIGHT → ▶
       */}
       <polygon
-        points="118,17 118,31 130,24"
+        points="118,17 118,31 128,24"
         fill={accentFill}
       />
 
