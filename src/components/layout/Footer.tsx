@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/ui/Logo";
 
 const WHATSAPP_URL =
   "https://wa.me/923218968667?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20legal%20services.";
@@ -19,37 +20,6 @@ const siteLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
-function FooterLogo() {
-  const accentColor = "#2563EB";
-
-  return (
-    <div className="flex flex-col leading-none select-none text-white">
-      {/* ALI ALMANI — bold, wide-tracked, all caps */}
-      <span className="font-inter font-bold text-[15px] uppercase tracking-[0.15em]">
-        ALI ALMANI
-      </span>
-
-      {/* Blue rule with right-pointing arrowhead */}
-      <div className="flex items-center my-[5px]">
-        <div className="flex-1 h-[2px]" style={{ backgroundColor: accentColor }} />
-        <div
-          style={{
-            width: 0,
-            height: 0,
-            borderTop: "4px solid transparent",
-            borderBottom: "4px solid transparent",
-            borderLeft: `6px solid ${accentColor}`,
-          }}
-        />
-      </div>
-
-      {/* & PARTNERS — lighter weight, smaller, right-aligned */}
-      <span className="font-inter font-normal text-[10px] uppercase tracking-[0.15em] text-right">
-        &amp; PARTNERS
-      </span>
-    </div>
-  );
-}
 
 const WhatsAppIcon = () => (
   <svg
@@ -69,7 +39,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Column 1: Logo + Contact details */}
           <div className="space-y-6">
-            <FooterLogo />
+            <Logo dark />
             <address className="not-italic space-y-2 text-sm text-white/70 font-inter leading-relaxed">
               <p>F8/3, Block 4, Old Clifton</p>
               <p>Karachi 75600, Pakistan</p>

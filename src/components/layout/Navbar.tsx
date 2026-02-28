@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { Logo } from "@/components/ui/Logo";
 
 const navLinks = [
   { label: "Practice", href: "/practice" },
@@ -27,40 +28,6 @@ const WhatsAppIcon = () => (
   </svg>
 );
 
-function Logo({ dark = false }: { dark?: boolean }) {
-  const textColor = dark ? "text-white" : "text-navy";
-  // Royal blue accent — slightly brighter on dark backgrounds for contrast
-  const accentColor = dark ? "#2563EB" : "#1B4F9B";
-
-  return (
-    <div className={`flex flex-col leading-none select-none ${textColor}`}>
-      {/* ALI ALMANI — bold, wide-tracked, all caps */}
-      <span className="font-inter font-bold text-[15px] uppercase tracking-[0.15em]">
-        ALI ALMANI
-      </span>
-
-      {/* Blue rule — stretches to fill width of "ALI ALMANI", with right-pointing arrowhead */}
-      <div className="flex items-center my-[5px]">
-        <div className="flex-1 h-[2px]" style={{ backgroundColor: accentColor }} />
-        {/* Solid right-pointing triangle matching the business card */}
-        <div
-          style={{
-            width: 0,
-            height: 0,
-            borderTop: "4px solid transparent",
-            borderBottom: "4px solid transparent",
-            borderLeft: `6px solid ${accentColor}`,
-          }}
-        />
-      </div>
-
-      {/* & PARTNERS — lighter weight, smaller, right-aligned to match right edge */}
-      <span className="font-inter font-normal text-[10px] uppercase tracking-[0.15em] text-right">
-        &amp; PARTNERS
-      </span>
-    </div>
-  );
-}
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
