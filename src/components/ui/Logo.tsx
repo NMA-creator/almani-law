@@ -58,23 +58,22 @@ export function Logo({ dark = false }: LogoProps) {
       <line
         x1="0"
         y1="24"
-        x2="118"
+        x2="108"
         y2="24"
         stroke={accentFill}
         strokeWidth="1.5"
       />
 
       {/*
-        ── Right-pointing triangle ▶ ──────────────────────────────────────────
-        Formula: "x,centerY-h  x,centerY+h  x+w,centerY"
-        Rule ends at x=118, centred on y=24, half-height=7, width=10:
-          top-left    (118, 17)  ← centerY - 7
-          bottom-left (118, 31)  ← centerY + 7
-          right-point (128, 24)  ← x + 10, centerY
-        Flat vertical LEFT side, single point to the RIGHT → ▶
+        ── Downward-pointing triangle ▼ ───────────────────────────────────────
+        Formula: "left,y  right,y  centerX,y+h"
+        Flat top along the rule at y=24, tip pointing down:
+          top-left    (108, 24)
+          top-right   (128, 24)
+          bottom-tip  (118, 32)  ← centerX=118, height=8px
       */}
       <polygon
-        points="118,17 118,31 128,24"
+        points="108,24 128,24 118,32"
         fill={accentFill}
       />
 
