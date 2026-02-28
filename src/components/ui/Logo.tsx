@@ -58,7 +58,7 @@ export function Logo({ dark = false }: LogoProps) {
       <line
         x1="0"
         y1="24"
-        x2="108"
+        x2="120"
         y2="24"
         stroke={accentFill}
         strokeWidth="1.5"
