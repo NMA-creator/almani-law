@@ -3,10 +3,13 @@ interface LogoProps {
 }
 
 /**
- * Inline SVG logo lockup — "ALI ALMANI" / blue rule + arrowhead / "& PARTNERS"
+ * Inline SVG logo — matches reference:
+ *   "ALI ALMANI"  — Inter 300, wide tracking
+ *   Blue rule     — thin horizontal line terminating in a downward-pointing triangle
+ *   "& PARTNERS"  — Inter 400, smaller, centred under the lockup
  *
- * dark=false (light bg): navy text (#1A2433), blue accent (#285295)
- * dark=true  (dark bg):  white text (#FFFFFF), blue accent (#285295)
+ * dark=false → charcoal text (#1A2433); dark=true → white text (#FFFFFF)
+ * Accent (#285295) is always blue, regardless of background.
  */
 export function Logo({ dark = false }: LogoProps) {
   const textFill = dark ? "#FFFFFF" : "#1A2433";
@@ -14,54 +17,59 @@ export function Logo({ dark = false }: LogoProps) {
 
   return (
     <svg
-      viewBox="0 0 116 36"
-      width="116"
-      height="36"
+      viewBox="0 0 148 42"
+      width="148"
+      height="42"
       role="img"
       aria-label="Ali Almani & Partners"
       className="select-none shrink-0"
     >
-      {/* ALI ALMANI — Libre Baskerville 500, letter-spacing 1px */}
+      {/* ALI ALMANI — Inter Light, wide tracking (matches reference sans-serif) */}
       <text
         x="0"
-        y="14"
+        y="17"
         fill={textFill}
         style={{
-          fontFamily: "var(--font-libre-baskerville), Georgia, serif",
-          fontSize: "14px",
-          fontWeight: 500,
-          letterSpacing: "1px",
+          fontFamily: "var(--font-inter), Inter, sans-serif",
+          fontSize: "16px",
+          fontWeight: 300,
+          letterSpacing: "3.5px",
         }}
       >
         ALI ALMANI
       </text>
 
-      {/* Horizontal rule spanning full lockup width */}
+      {/* Horizontal rule — ends where the triangle begins */}
       <line
         x1="0"
-        y1="21.5"
-        x2="109"
-        y2="21.5"
+        y1="24"
+        x2="130"
+        y2="24"
         stroke={accentFill}
         strokeWidth="1.5"
       />
 
-      {/* Right-pointing arrowhead — CSS border-trick equivalent in SVG */}
+      {/*
+        Downward-pointing triangle — top-left corner meets the line's right end.
+        Base spans x 130–148, apex points down to y 37.
+        Width 18px, height 13px — proportional to the reference.
+      */}
       <polygon
-        points="109,17.5 116,21.5 109,25.5"
+        points="130,21 148,21 139,34"
         fill={accentFill}
       />
 
-      {/* & PARTNERS — Inter, 8.5px, wide letter-spacing, right-aligned */}
+      {/* & PARTNERS — centred under the full lockup, modest tracking */}
       <text
-        x="116"
-        y="33"
-        textAnchor="end"
+        x="74"
+        y="41"
+        textAnchor="middle"
         fill={textFill}
         style={{
           fontFamily: "var(--font-inter), Inter, sans-serif",
           fontSize: "8.5px",
-          letterSpacing: "5.5px",
+          fontWeight: 400,
+          letterSpacing: "2px",
         }}
       >
         &amp; PARTNERS
