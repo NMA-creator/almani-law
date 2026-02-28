@@ -37,7 +37,7 @@ export default function ContactPage() {
       </div>
 
       {/* Content */}
-      <div className="bg-off-white py-20 px-6">
+      <div className="bg-off-white py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
 
@@ -45,7 +45,7 @@ export default function ContactPage() {
             <div>
               {/* Firm details */}
               <div className="mb-10">
-                <h2 className="font-cormorant font-normal text-2xl text-navy mb-6">
+                <h2 className="font-cormorant font-normal text-2xl text-navy mb-8">
                   Ali Almani &amp; Partners
                 </h2>
                 <address className="not-italic space-y-2 font-inter text-sm text-text leading-relaxed">

@@ -55,8 +55,8 @@ export default function AboutPage() {
       </div>
 
       {/* Body copy */}
-      <div className="bg-off-white py-24 px-6">
-        <div className="max-w-3xl mx-auto space-y-8">
+      <div className="bg-off-white py-[140px] px-6">
+        <div className="max-w-[760px] mx-auto space-y-10">
           {bodyParagraphs.map((para, i) => (
             <p
               key={i}
@@ -85,7 +85,7 @@ export default function AboutPage() {
       </div>
 
       {/* Values panels */}
-      <div className="bg-navy py-24 px-6">
+      <div className="bg-navy py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/10">
             {values.map((value) => (

@@ -25,12 +25,12 @@ const iconMap: Record<string, FC<LucideProps>> = {
 
 export default function PracticeGrid() {
   return (
-    <section className="bg-white py-24 px-6">
+    <section className="bg-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           eyebrow="Our Practice"
           heading="Areas of Expertise"
-          className="mb-12"
+          className="mb-8"
         />
 
         {/* 3-col grid with collapsed borders — 7th tile spans full row */}

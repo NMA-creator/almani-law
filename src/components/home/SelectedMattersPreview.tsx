@@ -4,12 +4,12 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export default function SelectedMattersPreview() {
   return (
-    <section className="bg-white py-24 px-6">
+    <section className="bg-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
         <SectionHeader
           eyebrow="Selected Matters"
           heading="Recent Work"
-          className="mb-12"
+          className="mb-8"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-3 border-t border-l border-border">

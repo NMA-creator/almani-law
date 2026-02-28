@@ -32,7 +32,7 @@ export default function PracticeSection({ area, isLast }: PracticeSectionProps) 
           {area.title}
         </h2>
 
-        <div className="space-y-5 mb-10">
+        <div className="space-y-10 mb-10 max-w-[760px]">
           {area.body.map((para, i) => (
             <p
               key={i}

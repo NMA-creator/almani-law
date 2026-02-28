@@ -37,7 +37,7 @@ export default function PracticePage() {
       </div>
 
       {/* Content — sidebar + sections */}
-      <div className="bg-white py-20 px-6">
+      <div className="bg-white py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-16">
             {/* Sticky side nav — desktop only */}

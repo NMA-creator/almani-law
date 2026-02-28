@@ -3,7 +3,7 @@ import { matters } from "@/data/matters";
 export function SelectedMatters() {
   return (
     <section id="selected-matters" className="scroll-mt-28 pt-16 border-t border-border">
-      <h2 className="font-cormorant font-normal text-3xl md:text-4xl text-navy mb-10">
+      <h2 className="font-cormorant font-normal text-3xl md:text-4xl text-navy mb-8">
         Selected Matters
       </h2>
 

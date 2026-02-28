@@ -10,7 +10,7 @@ const shortBio =
 
 export default function FeaturedProfile() {
   return (
-    <section className="bg-off-white py-24 px-6">
+    <section className="bg-off-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Left: photo placeholder (400×500) */}
@@ -24,7 +24,7 @@ export default function FeaturedProfile() {
               Managing Partner
             </p>
 
-            <h2 className="font-cormorant font-normal text-4xl md:text-5xl text-navy mb-4 leading-tight">
+            <h2 className="font-cormorant font-normal text-4xl md:text-5xl text-navy mb-8 leading-tight">
               {ali.name}
             </h2>
 

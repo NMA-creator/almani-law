@@ -49,7 +49,7 @@ export default async function TeamMemberPage({ params }: Props) {
       </div>
 
       {/* Profile content */}
-      <div className="bg-white py-20 px-6">
+      <div className="bg-white py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           {/*
             DOM: sidebar first (credentials before bio for screen readers).
@@ -64,7 +64,7 @@ export default async function TeamMemberPage({ params }: Props) {
 
             {/* Bio + CTA */}
             <div className="order-1 lg:order-2">
-              <div className="space-y-6 mb-12">
+              <div className="space-y-10 mb-12 max-w-[760px]">
                 {member.bio.map((para, i) => (
                   <p
                     key={i}

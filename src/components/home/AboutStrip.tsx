@@ -20,7 +20,7 @@ export default function AboutStrip() {
         </div>
 
         {/* Right: pull quote + CTA */}
-        <div className="flex flex-col justify-center px-10 md:px-14 py-20">
+        <div className="flex flex-col justify-center px-10 md:px-14 py-[140px]">
           <blockquote className="font-cormorant italic text-2xl md:text-3xl text-white leading-relaxed mb-10">
             &ldquo;{pullQuote}&rdquo;
           </blockquote>

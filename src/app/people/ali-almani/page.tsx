@@ -56,7 +56,7 @@ export default function AliAlmaniPage() {
       </div>
 
       {/* Profile content */}
-      <div className="bg-white py-20 px-6">
+      <div className="bg-white py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           {/*
             DOM order: sidebar first so screen readers get credentials before bio.
@@ -72,7 +72,7 @@ export default function AliAlmaniPage() {
             {/* Bio + buttons + selected matters */}
             <div className="order-1 lg:order-2">
               {/* Full biography */}
-              <div className="space-y-6 mb-12">
+              <div className="space-y-10 mb-12 max-w-[760px]">
                 {ali.bio.map((para, i) => (
                   <p
                     key={i}

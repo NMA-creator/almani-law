@@ -27,7 +27,7 @@ const bodyParagraphs = [
 
 export default function IntroStrip() {
   return (
-    <section className="bg-off-white py-24 px-6">
+    <section className="bg-off-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
         {/* Pull quote */}
         <blockquote className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-navy leading-relaxed mb-16 text-justify">
@@ -37,7 +37,7 @@ export default function IntroStrip() {
         {/* 2-col: intro text + credential stats */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Left: body text */}
-          <div className="space-y-6">
+          <div className="space-y-10">
             {bodyParagraphs.map((para, i) => (
               <p key={i} className="font-inter text-base text-text leading-relaxed">
                 {para}

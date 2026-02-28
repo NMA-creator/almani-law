@@ -23,7 +23,7 @@ export default function PeoplePage() {
       </div>
 
       {/* Team grid */}
-      <div className="bg-white py-20 px-6">
+      <div className="bg-white py-[140px] px-6">
         <div className="max-w-7xl mx-auto">
           <TeamGrid />
         </div>
