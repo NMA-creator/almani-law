@@ -3,73 +3,93 @@ interface LogoProps {
 }
 
 /**
- * Inline SVG logo — matches reference:
- *   "ALI ALMANI"  — Inter 300, wide tracking
- *   Blue rule     — thin horizontal line terminating in a downward-pointing triangle
- *   "& PARTNERS"  — Inter 400, smaller, centred under the lockup
+ * Inline SVG logo matching the reference:
  *
- * dark=false → charcoal text (#1A2433); dark=true → white text (#FFFFFF)
- * Accent (#285295) is always blue, regardless of background.
+ *   ALI ALMANI          ← Inter 300, wide tracking, dark charcoal / white on dark
+ *   ————————————————▶   ← thin blue rule (#285295) terminating in right-pointing ▶
+ *      & PARTNERS        ← Inter 400, smaller, centred, moderate tracking
+ *
+ * dark=false (light bg) → text #1A2433, accent #285295
+ * dark=true  (dark bg)  → text #FFFFFF,  accent #285295
  */
 export function Logo({ dark = false }: LogoProps) {
   const textFill = dark ? "#FFFFFF" : "#1A2433";
   const accentFill = "#285295";
 
+  /*
+   * Layout (all values in SVG user units ≈ px):
+   *
+   *  y=18  — "ALI ALMANI" baseline
+   *  y=24  — rule centre (midpoint of the triangle's flat left side)
+   *  y=37  — "& PARTNERS" baseline
+   *
+   *  x=0   — left edge of "ALI ALMANI" and start of rule
+   *  x=118 — estimated right edge of "ALI ALMANI" text / left side of triangle
+   *  x=130 — right point of triangle (triangle is 12px wide, 14px tall)
+   *
+   *  Total viewBox: 130 × 40
+   */
+
   return (
     <svg
-      viewBox="0 0 148 42"
-      width="148"
-      height="42"
+      viewBox="0 0 130 40"
+      width="130"
+      height="40"
       role="img"
       aria-label="Ali Almani & Partners"
       className="select-none shrink-0"
     >
-      {/* ALI ALMANI — Inter Light, wide tracking (matches reference sans-serif) */}
+      {/* ── ALI ALMANI ─────────────────────────────────────────────────────── */}
       <text
         x="0"
-        y="17"
+        y="18"
         fill={textFill}
         style={{
           fontFamily: "var(--font-inter), Inter, sans-serif",
-          fontSize: "16px",
+          fontSize: "17px",
           fontWeight: 300,
-          letterSpacing: "3.5px",
+          letterSpacing: "3px",
         }}
       >
         ALI ALMANI
       </text>
 
-      {/* Horizontal rule — ends where the triangle begins */}
+      {/* ── Horizontal rule ────────────────────────────────────────────────── */}
       <line
         x1="0"
         y1="24"
-        x2="130"
+        x2="118"
         y2="24"
         stroke={accentFill}
         strokeWidth="1.5"
       />
 
       {/*
-        Downward-pointing triangle — top-left corner meets the line's right end.
-        Base spans x 130–148, apex points down to y 37.
-        Width 18px, height 13px — proportional to the reference.
+        ── Right-pointing triangle ▶ ──────────────────────────────────────────
+        Flat vertical side on the LEFT at x=118 (where the rule ends).
+        Point on the RIGHT at x=130.
+        Vertically centred on the rule (y=24):
+          top-left    (118, 17)
+          bottom-left (118, 31)
+          right-point (130, 24)
+        Width=12, Height=14 — proportional to the reference.
       */}
       <polygon
-        points="130,21 148,21 139,34"
+        points="118,17 118,31 130,24"
         fill={accentFill}
       />
 
-      {/* & PARTNERS — centred under the full lockup, modest tracking */}
+      {/* ── & PARTNERS ─────────────────────────────────────────────────────── */}
       <text
-        x="74"
-        y="41"
+        x="65"
+        y="37"
         textAnchor="middle"
         fill={textFill}
         style={{
           fontFamily: "var(--font-inter), Inter, sans-serif",
-          fontSize: "8.5px",
+          fontSize: "9px",
           fontWeight: 400,
-          letterSpacing: "2px",
+          letterSpacing: "2.5px",
         }}
       >
         &amp; PARTNERS
