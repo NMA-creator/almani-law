@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const pullQuote =
-  "What we offer our clients is straightforward: serious lawyers who prepare thoroughly, argue precisely, and treat every matter — however routine it may appear — as if the outcome matters, because to our clients, it always does.";
+  "Our commitment to our clients is absolute: a practice built upon rigorous preparation, precise advocacy, and the professional conviction that every matter—regardless of its perceived complexity—demands our most exacting standards. We recognize that for our clients, the outcome is never routine; to us, it is the only measure of our success.";
 
 export default function AboutStrip() {
   return (

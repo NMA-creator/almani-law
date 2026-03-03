@@ -18,7 +18,7 @@ const stats = [
 ];
 
 const pullQuote =
-  "Ali Almani & Partners was founded with the conviction that the best litigation practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult cases.";
+  "Ali Almani & Partners was founded with the conviction that the best legal practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult cases.";
 
 const bodyParagraphs = [
   "The firm is based in Karachi, and practises across Pakistan's superior courts — the Federal Constitutional Court, the Supreme Court of Pakistan, and the High Courts — as well as before the country's major regulatory bodies and, in domestic and international arbitration matters.",

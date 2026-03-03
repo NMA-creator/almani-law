@@ -8,10 +8,10 @@ export const metadata: Metadata = {
 };
 
 const bodyParagraphs = [
-  "Ali Almani & Partners was founded in January 2026 by Ali Almani, with the conviction that the best litigation practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult positions before difficult courts.",
+  "Ali Almani & Partners was founded with the conviction that the best legal practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult cases.",
   "The firm is based in Karachi, and practises across Pakistan's superior courts — the Federal Constitutional Court, the Supreme Court of Pakistan, and the High Courts in each province and the Islamabad Capital Territory — as well as before the country's major regulatory bodies and, in arbitration matters, before international tribunals.",
   "Our founding partner spent seventeen years, including eleven years as a partner, at Fazleghani Advocates, one of Pakistan's most distinguished litigation chambers, where he built a practice spanning tax litigation, constitutional law, international arbitration, and commercial disputes. The lawyers who have joined him here trained alongside him through some of the most complex matters in Pakistan's courts. This is not a new firm in the sense of being untested — it is a practice with deep roots, carried forward under a new name.",
-  "What we offer our clients is straightforward: serious lawyers who prepare thoroughly, argue precisely, and treat every matter — however routine it may appear — as if the outcome matters, because to our clients, it always does.",
+  "Our commitment to our clients is absolute: a practice built upon rigorous preparation, precise advocacy, and the professional conviction that every matter—regardless of its perceived complexity—demands our most exacting standards. We recognize that for our clients, the outcome is never routine; to us, it is the only measure of our success.",
 ];
 
 const values = [
