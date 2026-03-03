@@ -31,7 +31,7 @@ export const heroSlides: HeroSlide[] = [
 ];
 
 export const heroContent: HeroContent = {
-  eyebrow: "Advocates & Legal Consultants · Karachi",
+  eyebrow: "Advocates & Legal Consultants · Pakistan",
   heading: "Ali Almani & Partners",
   tagline: "Pakistan's courts. The world's standards.", // TODO: confirm with client
   ctaPrimary: { label: "Our Practice", href: "/practice" },

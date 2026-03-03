@@ -72,7 +72,8 @@ export default function HeroSlider() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="font-cormorant font-normal text-[clamp(2.5rem,5vw,4.2rem)] leading-[1.15] tracking-[-0.02em] text-[#F9F9F9] mb-10"
           >
-            {tagline}
+            Pakistan&rsquo;s courts.<br />
+            The world&rsquo;s standards.
           </motion.h1>
 
           {/* CTA buttons */}
