@@ -31,7 +31,7 @@ export const practiceAreas: PracticeArea[] = [
     descriptor: "Cross-border disputes under DIAC, ICC, ICSID and LCIA rules",
     body: [
       "We represent clients in domestic and international arbitrations across the full spectrum of commercial disputes. Our international arbitration practice spans proceedings under the rules of the Dubai International Arbitration Centre (DIAC), the International Chamber of Commerce (ICC), the International Centre for Settlement of Investment Disputes (ICSID), and the London Court of International Arbitration (LCIA).",
-      "Our teams has represented multinational petroleum companies, liquefied natural gas suppliers, and independent power producers — parties for whom the stakes are measured in millions of dollars and whose disputes require advocacy of the highest order.",
+      "Our team has represented multinational petroleum companies, liquefied natural gas suppliers, and independent power producers — parties for whom the stakes are measured in millions of dollars and whose disputes require advocacy of the highest order.",
       "Our founding partner was nominated by the Government of Pakistan to the ICSID Panel of Arbitrators in February 2024. He is the author of published texts on arbitration law for Kluwer Law International and a contributor to the International Handbook on Commercial Arbitration. He has also been appointed as Amicus Curiae by the superior courts to assist in complex matters of international arbitration law.",
     ],
   },
