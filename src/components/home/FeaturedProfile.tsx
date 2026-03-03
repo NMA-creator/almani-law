@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import { team } from "@/data/team";
 
 const ali = team[0]; // Ali Almani
@@ -12,14 +11,9 @@ export default function FeaturedProfile() {
   return (
     <section className="bg-off-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-start">
-          {/* Left: photo placeholder (400×500) */}
-          <div className="w-full max-w-sm mx-auto md:mx-0">
-            <PhotoPlaceholder width={400} height={500} className="w-full" />
-          </div>
-
-          {/* Right: bio excerpt */}
-          <div className="flex flex-col justify-center md:pt-8">
+        <div className="max-w-[760px]">
+          {/* Bio excerpt */}
+          <div className="flex flex-col justify-center">
             <p className="font-inter font-medium text-xs uppercase tracking-widest text-gold mb-4">
               Managing Partner
             </p>

@@ -1,4 +1,3 @@
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import type { TeamMember } from "@/data/team";
 
 interface ProfileSidebarProps {
@@ -32,12 +31,6 @@ function SidebarSection({ title, items }: SidebarSectionProps) {
 export function ProfileSidebar({ member }: ProfileSidebarProps) {
   return (
     <aside className="sticky top-24">
-      <PhotoPlaceholder
-        width={300}
-        height={380}
-        className="w-full mb-10"
-      />
-
       <div className="space-y-8">
         <SidebarSection title="Admissions" items={member.admissions} />
         <SidebarSection title="Education" items={member.education} />
