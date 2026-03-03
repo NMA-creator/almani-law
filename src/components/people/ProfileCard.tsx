@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { PhotoPlaceholder } from "@/components/ui/PhotoPlaceholder";
 import type { TeamMember } from "@/data/team";
 
 interface ProfileCardProps {
@@ -9,15 +8,6 @@ interface ProfileCardProps {
 export function ProfileCard({ member }: ProfileCardProps) {
   return (
     <Link href={`/people/${member.slug}`} className="group block">
-      {/* Portrait photo — overflow hidden for scale-on-hover */}
-      <div className="overflow-hidden mb-4">
-        <PhotoPlaceholder
-          width={3}
-          height={4}
-          className="w-full transition-transform duration-500 group-hover:scale-[1.03]"
-        />
-      </div>
-
       <h2 className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight group-hover:text-blue transition-colors duration-200">
         {member.name}
       </h2>
