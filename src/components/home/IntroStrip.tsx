@@ -31,7 +31,7 @@ export default function IntroStrip() {
       <div className="max-w-7xl mx-auto">
         {/* Pull quote */}
         <blockquote className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-navy leading-relaxed mb-16 text-justify">
-          &ldquo;{pullQuote}&rdquo;
+          {pullQuote}
         </blockquote>
 
         {/* 2-col: intro text + credential stats */}
