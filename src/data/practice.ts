@@ -19,7 +19,7 @@ export const practiceAreas: PracticeArea[] = [
     body: [
       "Tax litigation is at the heart of our practice. We represent Pakistan's largest domestic conglomerates and leading multinational corporations in precedent-setting cases before the superior courts, including the Federal Constitutional Court, Supreme Court and High Courts of Pakistan. Our work spans the full range of fiscal disputes — income tax, super tax, sales tax, customs duties, tax credits, exemptions, and audit selection matters.",
       "We approach every tax case with close attention to legislative history: our founding partner was directly involved in drafting the Sales Tax on Services legislation enacted in 2011 and participated in the National Finance Commission Award negotiations of 2008, giving the firm rare insight into the intent behind Pakistan's fiscal framework.",
-      "We have successfully argued landmark cases that have established binding precedents on questions of tax policy, assessment methodology, and the limits of regulatory authority — securing outcomes that have saved clients billions of rupees in potential liabilities.",
+      "Our team has successfully argued landmark cases that have established binding precedents on questions of tax policy, assessment methodology, and the limits of regulatory authority — securing outcomes that have saved clients billions of rupees in potential liabilities.",
     ],
   },
   {
@@ -31,8 +31,8 @@ export const practiceAreas: PracticeArea[] = [
     descriptor: "Cross-border disputes under DIAC, ICC, ICSID and LCIA rules",
     body: [
       "We represent clients in domestic and international arbitrations across the full spectrum of commercial disputes. Our international arbitration practice spans proceedings under the rules of the Dubai International Arbitration Centre (DIAC), the International Chamber of Commerce (ICC), the International Centre for Settlement of Investment Disputes (ICSID), and the London Court of International Arbitration (LCIA).",
-      "Our lawyers have represented multinational petroleum companies, liquefied natural gas suppliers, and independent power producers — parties for whom the stakes are measured in the hundreds of millions of dollars and whose disputes require advocacy of the highest order.",
-      "Ali Almani was nominated by the Government of Pakistan to the ICSID Panel of Arbitrators in February 2024. He is the author of published texts on arbitration law for Kluwer Law International and a contributor to the International Handbook on Commercial Arbitration. He has also been appointed as Amicus Curiae by the superior courts to assist in complex matters of international arbitration law.",
+      "Our teams has represented multinational petroleum companies, liquefied natural gas suppliers, and independent power producers — parties for whom the stakes are measured in millions of dollars and whose disputes require advocacy of the highest order.",
+      "Our founding partner was nominated by the Government of Pakistan to the ICSID Panel of Arbitrators in February 2024. He is the author of published texts on arbitration law for Kluwer Law International and a contributor to the International Handbook on Commercial Arbitration. He has also been appointed as Amicus Curiae by the superior courts to assist in complex matters of international arbitration law.",
     ],
   },
   {
@@ -45,7 +45,7 @@ export const practiceAreas: PracticeArea[] = [
       "High-profile matters concerning fundamental rights and devolution",
     body: [
       "We litigate constitutional matters of genuine national consequence. Our work in this area has addressed some of the most significant public law questions of recent years — including cases concerning the 18th Amendment to the Constitution, the devolution of legislative and executive powers between the federation and the provinces, the distribution of natural resources, the determination of gas tariffs, and the constitutional framework governing elections.",
-      "We have also appeared in landmark cases concerning fundamental rights: freedom of expression, protection of property, the right to education, and the right to divorce. In several complex matters, our founding partner has been appointed Amicus Curiae by the superior courts.",
+      "Our team has appeared in landmark cases concerning fundamental rights: freedom of expression, protection of property, the right to education, and the right to divorce. In several complex matters, our founding partner has been appointed Amicus Curiae by the superior courts.",
     ],
   },
   {
@@ -69,7 +69,7 @@ export const practiceAreas: PracticeArea[] = [
     descriptor:
       "Proceedings before the SECP, NEPRA, Competition Commission",
     body: [
-      "Pakistan's regulatory environment has grown significantly in complexity over recent decades, and disputes with regulatory bodies now represent some of the most consequential litigation facing our clients. We appear before and advise clients in relation to the Securities & Exchange Commission of Pakistan (SECP), the National Electric Power Regulatory Authority (NEPRA), the Oil and Gas Regulatory Authority (OGRA), the Competition Commission of Pakistan, and the Election Commission of Pakistan, among others.",
+      "Pakistan's regulatory environment has grown significantly in complexity over recent decades, and disputes with regulatory bodies now represent some of the most consequential litigation facing our clients. We appear before and advise clients in relation to proceedings before, and queries relating to, the Securities & Exchange Commission of Pakistan (SECP), the National Electric Power Regulatory Authority (NEPRA), the Oil and Gas Regulatory Authority (OGRA), the Competition Commission of Pakistan, among others.",
       "Our founding partner has testified before the Senate on financial sector legislation and advised on the restructuring of clearing transactions for the Pakistan Stock Exchange.",
     ],
   },
@@ -81,7 +81,7 @@ export const practiceAreas: PracticeArea[] = [
     icon: "FileText",
     descriptor: "Property, family, defamation and service matters",
     body: [
-      "We handle a broad range of civil matters before the superior courts, including property disputes, family law matters, defamation proceedings, and service cases. We bring the same standard of preparation and advocacy to civil matters that we apply across all our practice areas — because for our clients, these cases matter just as much.",
+      "We handle a broad range of civil matters before the superior courts, including property disputes, family law matters, defamation proceedings, and service cases. We bring the same standard of preparation and advocacy to civil matters that we apply across all our practice areas.",
     ],
   },
   {
@@ -93,7 +93,8 @@ export const practiceAreas: PracticeArea[] = [
     descriptor:
       "Regulatory compliance, governance and financial sector matters",
     body: [
-      "We advise on regulatory compliance, corporate governance, financial sector legislation, and commercial transactions. Our founding partner has advised on the Financial Institutions (Recovery of Finances) Ordinance 2001, testified before the Senate, and advised on the restructuring of clearing transactions for the Pakistan Stock Exchange.",
+      "We provide sophisticated counsel on regulatory compliance, corporate governance, and complex commercial transactions. Our advisory practice is particularly distinguished in its support of foreign investors navigating the Pakistani legal landscape—guiding them through corporate establishment, cross-border mergers, acquisitions, and the strategic divestment of assets. We further advise on the intricate requirements of foreign exchange repatriation and dividend distributions.",
+      "The firm maintains a dedicated focus on the financial sector, advising leading Financial Institutions and Mutual Funds on matters of governance and high-stakes employment disputes. Our institutional authority is anchored by our founding partner’s extensive contributions to Pakistan’s fiscal and regulatory framework, including advising on the 2001 Financial Institutions (Recovery of Finances) Ordinance, providing expert testimony before the Senate, and structuring critical clearing transactions for the Pakistan Stock Exchange.",
     ],
   },
 ];

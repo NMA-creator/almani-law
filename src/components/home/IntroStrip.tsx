@@ -1,27 +1,27 @@
 const stats = [
   {
-    value: "17 years",
+    value: "25+ years",
     description: "Combined senior experience at Fazleghani Advocates",
   },
   {
-    value: "10+",
+    value: "50+",
     description: "Leading judgments in public court records",
   },
   {
-    value: "4",
-    description: "International arbitral institutions",
+    value: "15+",
+    description: "International arbitrations",
   },
   {
     value: "2024–2030",
-    description: "ICSID Panel of Arbitrators nomination",
+    description: "ICSID Panel of Arbitrators",
   },
 ];
 
 const pullQuote =
-  "Ali Almani & Partners was founded in January 2026 by Ali Almani, with the conviction that the best litigation practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult positions before difficult courts.";
+  "Ali Almani & Partners was founded with the conviction that the best litigation practice is built on three things: rigorous preparation, deep knowledge of the law, and the courage to argue difficult cases.";
 
 const bodyParagraphs = [
-  "The firm is based in Karachi, and practises across Pakistan's superior courts — the Federal Constitutional Court, the Supreme Court of Pakistan, and the High Courts in each province and the Islamabad Capital Territory — as well as before the country's major regulatory bodies and, in arbitration matters, before international tribunals.",
+  "The firm is based in Karachi, and practises across Pakistan's superior courts — the Federal Constitutional Court, the Supreme Court of Pakistan, and the High Courts — as well as before the country's major regulatory bodies and, in domestic and international arbitration matters.",
   "Our founding partner spent seventeen years, including eleven years as a partner, at Fazleghani Advocates, one of Pakistan's most distinguished litigation chambers. The lawyers who have joined him here trained alongside him through some of the most complex matters in Pakistan's courts.",
 ];
 
