@@ -30,7 +30,7 @@ export default function IntroStrip() {
     <section className="bg-off-white py-[140px] px-6">
       <div className="max-w-7xl mx-auto">
         {/* Pull quote */}
-        <blockquote className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-navy leading-relaxed mb-16 text-justify">
+        <blockquote className="font-cormorant text-2xl md:text-3xl lg:text-4xl text-navy leading-relaxed mb-16 md:text-justify">
           {pullQuote}
         </blockquote>
 
