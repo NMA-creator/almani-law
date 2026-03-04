@@ -32,7 +32,7 @@ export default function CredentialsBar() {
         <div className="marquee-track flex items-center whitespace-nowrap">
           {[...credentials, ...credentials].map((c, i) => (
             <span key={i} className="flex items-center">
-              <span className="font-inter text-xs uppercase tracking-widest text-white/75 px-2">
+              <span className="font-inter text-xs uppercase tracking-wide text-white/75 px-2">
                 {c}
               </span>
               <Dot />

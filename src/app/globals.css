@@ -77,9 +77,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Body text paragraphs are justified across all pages */
+/* Body text: left-aligned on mobile, justified on desktop where line lengths support it */
 p {
-  text-align: justify;
-  hyphens: auto;
   line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  p {
+    text-align: justify;
+    hyphens: auto;
+  }
 }
