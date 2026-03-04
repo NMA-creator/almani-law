@@ -58,7 +58,7 @@ export const team: TeamMember[] = [
       "BPTC, City, University of London",
     ],
     bio: [
-      "Furqan Mushtaq is a Senior Associate at Ali Almani & Partners. He holds an LLB (Hons) from the University of Nottingham and completed the Bar Professional Training Course at City, University of London. He was called to the Bar of England and Wales by The Honourable Society of Lincoln's Inn. Furqan joined Fazleghani Advocates in 2021, where he developed his litigation practice over four years before joining Ali Almani & Partners at its founding.",
+      "Furqan Mushtaq is a Senior Associate at Ali Almani & Partners. He holds an LLB (Hons) from the University of Nottingham and completed the Bar Professional Training Course at City, University of London. He was called to the Bar of England and Wales by The Honourable Society of Lincoln's Inn. Furqan joined Fazleghani Advocates in 2021, where he developed his litigation and advisory practice over five years before joining Ali Almani & Partners at its founding. He has advised and represented a diverse range of clients, including Government entities and private corporations, in complex and high-value matters.",
     ],
   },
   {
