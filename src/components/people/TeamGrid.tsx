@@ -7,6 +7,14 @@ const seniorAssociates = team.filter((m) =>
 );
 const associates = team.filter((m) => m.slug === "shahzeb-sahito");
 
+const administrativeOfficers = [
+  "Naveed Khan",
+  "Ahsan Khan",
+  "Vinod Kumar",
+  "Khalid Hussain",
+  "Walayat Shah",
+];
+
 interface SectionProps {
   label: string;
   members: TeamMember[];
@@ -42,6 +50,25 @@ export default function TeamGrid() {
 
       {/* Associates */}
       <Section label="Associates" members={associates} gridCols="grid-cols-1 sm:grid-cols-3" />
+
+      {/* Administrative Officers */}
+      <div className="mb-20">
+        <div className="mb-10">
+          <h2 className="font-inter font-medium text-xs uppercase tracking-widest text-gold pb-5 border-b-2 border-gold/30">
+            Administrative Officers
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
+          {administrativeOfficers.map((name) => (
+            <div key={name}>
+              <p className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight">
+                {name}
+              </p>
+              <p className="font-inter text-sm text-muted">Administrative Officer</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
