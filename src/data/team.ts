@@ -88,6 +88,23 @@ export const team: TeamMember[] = [
     ],
   },
   {
+    slug: "saad-sohaib-yousuf",
+    name: "Saad Sohaib Yousuf",
+    title: "Associate",
+    credentialsLine:
+      "LLB, LLM (City, University of London) · Member, Lincoln's Inn",
+    admissions: ["Member, The Honourable Society of Lincoln's Inn"],
+    education: [
+      "LLB, City, University of London",
+      "LLM (Advanced Criminal Practice), City, University of London",
+    ],
+    bio: [
+      "Saad Sohaib Yousuf read law at City, University of London, where he completed both his LLB and a Master of Laws in Advanced Criminal Practice. He is a member of the Honourable Society of Lincoln's Inn.",
+      "Saad has gained experience across litigation, arbitration, and regulatory matters through internships at leading Pakistani firms. He has assisted on civil suits, constitutional petitions, corporate matters, and criminal bail applications, and has developed particular familiarity with civil procedure and company law.",
+      "Prior to joining the firm, Saad worked as a caseworker at Sequentus in London, where he prepared case summaries and chronologies for fitness-to-practice proceedings before professional regulatory tribunals.",
+    ],
+  },
+  {
     slug: "fahad-khan",
     name: "Fahad Khan",
     title: "Senior Associate & Office Manager",

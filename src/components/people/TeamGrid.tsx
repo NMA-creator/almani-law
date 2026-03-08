@@ -5,7 +5,9 @@ const partners = team.filter((m) => m.slug === "ali-almani");
 const seniorAssociates = team.filter((m) =>
   ["furqan-mushtaq", "akber-sohail", "fahad-khan"].includes(m.slug)
 );
-const associates = team.filter((m) => m.slug === "shahzeb-sahito");
+const associates = team.filter((m) =>
+  ["shahzeb-sahito", "saad-sohaib-yousuf"].includes(m.slug)
+);
 
 const administrativeOfficers = [
   "Naveed Khan",
