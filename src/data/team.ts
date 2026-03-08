@@ -107,12 +107,15 @@ export const team: TeamMember[] = [
   {
     slug: "fahad-khan",
     name: "Fahad Khan",
-    title: "Senior Associate & Office Manager",
-    credentialsLine: "LLB, S.M. Law College · High Court practice since 2006",
+    title: "Director of Legal Operations",
+    credentialsLine:
+      "Admitted to Legal Profession: 2006 · Alumnus, S.M. Law College, Karachi",
     admissions: ["Advocate of the High Court"],
     education: ["LLB, S.M. Law College, Karachi"],
     bio: [
-      "Fahad Khan brings nearly two decades of experience in court practice and legal administration to Ali Almani & Partners. He holds an LLB from S.M. Law College, Karachi, and has been practising before the High Court since 2006. Fahad manages the firm's day-to-day operations and oversees all court filing and administrative proceedings.",
+      "With a career spanning nearly two decades, Fahad Khan represents a sophisticated blend of seasoned courtroom advocacy and high-level legal administration. Since entering the profession in 2006, Fahad has built a reputation for excellence by maintaining a unique dual-focus: navigating the complexities of court while ensuring the operational efficiency of a law firm.",
+      "He pursued and earned his LLB from S.M. Law College, Karachi, while concurrently working within the legal field. This approach allowed him to bridge the gap between academic legal theory and the practical realities of the Pakistani judicial system long before graduation.",
+      "Fahad has appeared in various court cases, bringing a meticulous and strategic approach to litigation. His familiarity with court protocols and judicial proceedings ensures that every case is planned to the highest standard. As Director of Legal Operations, Fahad manages the firm's administrative ecosystem, ensuring that the firm runs smoothly — from procedural filings to the management of time-sensitive administrative proceedings. In this role he also serves as the primary bridge between the firm and its clients, personally overseeing all client queries and ensuring that every client feels heard, informed, and confident.",
     ],
   },
 ];
