@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { team, type TeamMember } from "@/data/team";
 import { ProfileCard } from "./ProfileCard";
 
@@ -10,12 +11,13 @@ const associates = team.filter((m) =>
   ["shahzeb-sahito", "saad-sohaib-yousuf"].includes(m.slug)
 );
 
-const administrativeOfficers = [
-  "Naveed Khan",
-  "Ahsan Khan",
-  "Vinod Kumar",
-  "Khalid Hussain",
-  "Walayat Shah",
+const administrativeOfficers: { name: string; title: string; slug?: string }[] = [
+  { name: "Naveed Khan", title: "Paralegal", slug: "naveed-khan" },
+  { name: "Muhammad Ahsan Khan", title: "Paralegal" },
+  { name: "Vinod Kumar", title: "Librarian & Court Clerk", slug: "vinod-kumar" },
+  { name: "Khalid Hussain", title: "Secretary" },
+  { name: "Israr Khan", title: "Office Assistant" },
+  { name: "Pervez Baloch", title: "Office Assistant" },
 ];
 
 interface SectionProps {
@@ -65,12 +67,23 @@ export default function TeamGrid() {
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12">
-          {administrativeOfficers.map((name) => (
-            <div key={name}>
-              <p className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight">
-                {name}
-              </p>
-              <p className="font-inter text-sm text-muted">Administrative Officer</p>
+          {administrativeOfficers.map((officer) => (
+            <div key={officer.name}>
+              {officer.slug ? (
+                <Link href={`/people/${officer.slug}`} className="group block">
+                  <p className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight group-hover:text-blue transition-colors">
+                    {officer.name}
+                  </p>
+                  <p className="font-inter text-sm text-muted">{officer.title}</p>
+                </Link>
+              ) : (
+                <>
+                  <p className="font-cormorant font-normal text-2xl text-navy mb-1 leading-tight">
+                    {officer.name}
+                  </p>
+                  <p className="font-inter text-sm text-muted">{officer.title}</p>
+                </>
+              )}
             </div>
           ))}
         </div>

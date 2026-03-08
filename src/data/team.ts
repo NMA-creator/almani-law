@@ -118,6 +118,28 @@ export const team: TeamMember[] = [
       "Fahad has appeared in various court cases, bringing a meticulous and strategic approach to litigation. His familiarity with court protocols and judicial proceedings ensures that every case is planned to the highest standard. As Director of Legal Operations, Fahad manages the firm's administrative ecosystem, ensuring that the firm runs smoothly — from procedural filings to the management of time-sensitive administrative proceedings. In this role he also serves as the primary bridge between the firm and its clients, personally overseeing all client queries and ensuring that every client feels heard, informed, and confident.",
     ],
   },
+  {
+    slug: "naveed-khan",
+    name: "Naveed Khan",
+    title: "Paralegal",
+    credentialsLine: "",
+    admissions: [],
+    education: [],
+    bio: [
+      "Naveed brings five years of dedicated court experience to the firm, where he oversees the end-to-end filing process. Known for his precision and deep knowledge of court registries, he ensures our legal administrative workflow is seamless and error-free.",
+    ],
+  },
+  {
+    slug: "vinod-kumar",
+    name: "Vinod Kumar",
+    title: "Librarian & Court Clerk",
+    credentialsLine: "",
+    admissions: [],
+    education: [],
+    bio: [
+      "Vinod is responsible for the organisation of our law library, ensuring our legal resources are perfectly arranged for rapid research. In addition to information management, Vinod plays a vital role in office documentation, providing essential support in preparing and managing critical legal paperwork.",
+    ],
+  },
 ];
 
 export function getTeamMember(slug: string): TeamMember | undefined {
