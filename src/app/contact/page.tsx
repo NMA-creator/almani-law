@@ -4,7 +4,7 @@ import ContactForm from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact Ali Almani & Partners. Office at F8/3, Block 4, Old Clifton, Karachi. Email info@almani.law or message us on WhatsApp.",
+    "Contact Ali Almani & Partners. Office at F8/3, Block 4, Clifton, Karachi. Email info@almani.law or message us on WhatsApp.",
 };
 
 const WHATSAPP_URL =
@@ -49,7 +49,7 @@ export default function ContactPage() {
                   Ali Almani &amp; Partners
                 </h2>
                 <address className="not-italic space-y-2 font-inter text-sm text-text leading-relaxed">
-                  <p>F8/3, Block 4, Old Clifton</p>
+                  <p>F8/3, Block 4, Clifton</p>
                   <p>Karachi 75600, Pakistan</p>
                 </address>
                 <div className="mt-4 space-y-2 font-inter text-sm">
@@ -74,20 +74,6 @@ export default function ContactPage() {
                     www.almani.law
                   </a>
                 </div>
-              </div>
-
-              {/* Google Maps embed */}
-              <div className="w-full aspect-[4/3] bg-border mb-6 overflow-hidden">
-                <iframe
-                  src="https://maps.google.com/maps?q=24.8138,67.0298&z=16&output=embed&hl=en"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Ali Almani & Partners — Old Clifton, Karachi"
-                />
               </div>
 
               {/* WhatsApp CTA */}
