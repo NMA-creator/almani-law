@@ -107,7 +107,7 @@ export const team: TeamMember[] = [
   {
     slug: "fahad-khan",
     name: "Fahad Khan",
-    title: "Director of Legal Operations",
+    title: "Director of Operations",
     credentialsLine:
       "Admitted to Legal Profession: 2006 · Alumnus, S.M. Law College, Karachi",
     admissions: ["Advocate of the High Court"],
