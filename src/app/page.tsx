@@ -18,7 +18,7 @@ const jsonLd = {
   email: "info@almani.law",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "F8/3, Block 4, Old Clifton",
+    streetAddress: "F8/3, Block 4, Clifton",
     addressLocality: "Karachi",
     postalCode: "75600",
     addressCountry: "PK",
