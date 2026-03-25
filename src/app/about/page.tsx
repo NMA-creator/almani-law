@@ -36,7 +36,7 @@ export default function AboutPage() {
       <div className="relative flex items-end bg-navy pt-36 pb-16 min-h-[45vh]">
         <Image
           src="/images/hero/hero-1.jpg"
-          alt="Ali Almani & Partners — Old Clifton, Karachi"
+          alt="Ali Almani & Partners — Clifton, Karachi"
           fill
           className="object-cover opacity-30"
           sizes="100vw"
