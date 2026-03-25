@@ -12,7 +12,7 @@ export default function AboutStrip() {
         <div className="relative min-h-72 md:min-h-auto bg-navy/60">
           <Image
             src="/images/hero/hero-1.jpg"
-            alt="Ali Almani & Partners — Old Clifton, Karachi"
+            alt="Ali Almani & Partners — Clifton, Karachi"
             fill
             className="object-cover opacity-75"
             sizes="(max-width: 768px) 100vw, 50vw"
