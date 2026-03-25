@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="space-y-6">
             <Logo dark />
             <address className="not-italic space-y-2 text-sm text-white/70 font-inter leading-relaxed">
-              <p>F8/3, Block 4, Old Clifton</p>
+              <p>F8/3, Block 4, Clifton</p>
               <p>Karachi 75600, Pakistan</p>
             </address>
             <div className="space-y-2 text-sm font-inter">
