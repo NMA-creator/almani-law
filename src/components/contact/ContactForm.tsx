@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 const WHATSAPP_URL =
-  "https://wa.me/923218968667?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20legal%20services.";
+  "https://wa.me/923337108846?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20legal%20services.";
 
 const MATTER_OPTIONS = [
   "Tax Litigation",

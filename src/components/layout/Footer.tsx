@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/ui/Logo";
 
 const WHATSAPP_URL =
-  "https://wa.me/923218968667?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20legal%20services.";
+  "https://wa.me/923337108846?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20legal%20services.";
 
 const practiceLinks = [
   { label: "Tax Litigation", href: "/practice#tax-litigation" },
@@ -64,7 +64,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-whatsapp hover:opacity-90 transition-opacity"
               >
                 <WhatsAppIcon />
-                +92 321 896 8667 (WhatsApp)
+                +92 333 710 8846 (WhatsApp)
               </a>
             </div>
           </div>
