@@ -6,7 +6,6 @@ const partners = team.filter((m) => m.slug === "ali-almani");
 const seniorAssociates = team.filter((m) =>
   ["furqan-mushtaq", "akber-sohail"].includes(m.slug)
 );
-const management = team.filter((m) => m.slug === "fahad-khan");
 const associates = team.filter((m) =>
   ["shahzeb-sahito", "saad-sohaib-yousuf"].includes(m.slug)
 );
@@ -49,9 +48,6 @@ export default function TeamGrid() {
     <div>
       {/* Managing Partner — card is 1/3 width, prominent but consistent */}
       <Section label="Partners" members={partners} gridCols="grid-cols-1 sm:grid-cols-3" />
-
-      {/* Management */}
-      <Section label="Management" members={management} gridCols="grid-cols-1 sm:grid-cols-3" />
 
       {/* Senior Associates */}
       <Section label="Senior Associates" members={seniorAssociates} gridCols="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" />
