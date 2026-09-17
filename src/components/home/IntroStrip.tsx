@@ -1,7 +1,7 @@
 const stats = [
   {
     value: "25+ years",
-    description: "Combined senior experience at Fazleghani Advocates",
+    description: "Combined litigation experience",
   },
   {
     value: "50+",
